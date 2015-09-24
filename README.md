@@ -2,4 +2,5 @@
 自己学习
 ```js 
 console.log('hello wrold');
+alert('hello world');
 ````
