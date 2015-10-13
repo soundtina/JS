@@ -4,3 +4,4 @@
 console.log('hello wrold');
 alert('hello world');
 ````
+决定用Hexo组织内容
