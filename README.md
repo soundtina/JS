@@ -4,5 +4,5 @@
 console.log('hello wrold');
 alert('hello world!');
 ````
-add a dev branch
+add a dev branch master
 
