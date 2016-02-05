@@ -1,4 +1,4 @@
-title: build the vue.js develop environment with webpack
+title: 使用webpack搭建vue开发环境 
 date: 2015-10-30 21:48:28
 tags: vue webpack vue-strap bootstarp
 ---
