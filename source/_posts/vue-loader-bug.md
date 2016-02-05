@@ -6,10 +6,10 @@ desc: vue-loader 压缩代码丢失<td> 和 type="text" 属性
 ---
 在使用vue-loader 配合webpack 对.vue文件进行加载的时候，如果开启了代码压缩会出来下面
 几种问题，做个记录。
+<!-- more -->
 - 丢失td结束标记，导致页面的布局错乱
 - input的属性type为text 时会被删了
 - `<input ... checked="{check('id')}" />`这个表达式会被压成 `<input ... checked />`
-<!-- more -->
 
 ## 丢失td结束标记
 
@@ -88,7 +88,7 @@ vue: {
 <input type="checkbox" checked/>
 ```
 <div class="tip">
-    这会导致所有的checkbox都被选中，所绑定的判断方法直接被删除了
+    这会导致所绑定的判断方法直接被删除了,所有的checkbox都被选中
 </div>
 **解决方法可以有两个:**
 1.跟上面一样:设置参数让vue-html-loader不要去截断这个
