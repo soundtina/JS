@@ -1,10 +1,2 @@
-# JS
-自己学习
-```javascript
-console.log('hello wrold');
-alert('hello world!');
-````
-add a dev branch master & dev
-use a new bash in windows babun. Very nice
-no-diff
-
+这是我[http://wangyonghua.com](个人博客)的源码
+网站使用HEXO搭建的
