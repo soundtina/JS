@@ -155,7 +155,7 @@ var helloVue = require('./views/hello.vue')
 ```
 ### 8.测试vue
 ```bash
-//根目录执行
+#根目录执行
 npm start
 ```
 打开index.html，看到`红色背景的Vue hello world`
